@@ -1,2 +1,2 @@
 #!/bin/sh
-mvn clean package -Pcontainer
+./mvnw clean package -Pcontainer
