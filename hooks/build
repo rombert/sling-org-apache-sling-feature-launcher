@@ -1,2 +1,4 @@
 #!/bin/sh
+sudo yum install java-11-amazon-corretto-headless
+java -version
 ./mvnw clean package -Pcontainer
